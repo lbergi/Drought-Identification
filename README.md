@@ -5,10 +5,6 @@ date: "19 November 2018"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Introduction
 Here I share a function that identifies extremes of data (i.e. droughts via soilmoisture) stored in NetCDF files with a percentile and a monthly duration using R.
 
